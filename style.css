@@ -121,8 +121,8 @@ body {
 
 #about-us {
     background: #E9D5DA;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 25px;
 }
 
 .about-title {
@@ -144,7 +144,7 @@ body {
 
 #testimonials {
     background: #E9D5DA;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 #testimonials .row {
@@ -174,7 +174,7 @@ body {
 
 #social-media {
     background: #E9D5DA;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 80px;
 }
 

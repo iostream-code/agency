@@ -17,7 +17,7 @@
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#top">
                     <img src="img/logo.png" alt="company-logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,19 +26,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link" aria-current="page" href="#top">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">SERVICES</a>
+                            <a class="nav-link" href="#services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT US</a>
+                            <a class="nav-link" href="#about-us">ABOUT US</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">TESTIMONIAL</a>
+                            <a class="nav-link" href="#testimonials">TESTIMONIAL</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">CONTACT</a>
+                            <a class="nav-link" href="#footer">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -182,6 +182,11 @@
             </div>
         </div>
     </section>
+    <!-- Smooth Scroll-Section -->
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
